@@ -31,11 +31,11 @@ app.post("/", function(req, res) {
 
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us14.api.mailchimp.com/3.0/lists/78fda2cbeb"
+  const url = "https://us14.api.mailchimp.com/3.0/lists/78fda2cbeb" 
 
   const options = {
     method: "POST",
-    auth: "emmanuel:baeb8144a078733c5b6e4483abbc4df3-us14"
+    auth: "emmanuel:baeb8144a078733c5b6e4483abbc4df3-us14" /*Disabled Public API Key*/
 
   }
 
